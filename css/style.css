@@ -149,8 +149,11 @@ body {
 .promo {
   padding-top: 50px;
   padding-bottom: 50px;
+  display: flex;
+  justify-content: space-between;
 }
 .card {
+	width: 100%;
   position: relative;
   border-radius: 20px;
   overflow: hidden;
